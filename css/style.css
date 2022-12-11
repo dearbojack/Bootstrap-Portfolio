@@ -1,7 +1,20 @@
-a:hover {
-    box-shadow: inset;
+a {
+    /* background-color: powderblue; */
+    transition: background-color 0.5s;
 }
 
+a:hover {
+    background-color: gold;
+}
+
+button:hover {
+    box-shadow: 10px indigo;
+    background-color: blueviolet;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
 .container {
     padding-top: 50px;
 }
