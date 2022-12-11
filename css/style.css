@@ -1,3 +1,11 @@
+a:hover {
+    box-shadow: inset;
+}
+
+.container {
+    padding-top: 50px;
+}
+
 .icon-list li::before {
     display: block;
     flex-shrink: 0;
