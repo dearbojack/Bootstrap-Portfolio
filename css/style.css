@@ -1,29 +1,32 @@
 a {
-    /* background-color: powderblue; */
     transition: background-color 0.5s;
 }
 
+/* link hover effect */
 a:hover {
     background-color: gold;
 }
 
+/* button hover effect */
 .btn:hover {
     box-shadow: 10px 5px 5px blueviolet;
 }
 
+
+/* jumbotron bg image & text color */
 .jumbotron {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-}
-
-.jumbotron h1,p {
     color: white;
     text-align: justify;
 }
+
 .container {
     padding-top: 50px;
 }
 
+
+/* list beautify */
 .icon-list li::before {
     display: block;
     flex-shrink: 0;
