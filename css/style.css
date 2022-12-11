@@ -7,9 +7,8 @@ a:hover {
     background-color: gold;
 }
 
-button:hover {
-    box-shadow: 10px indigo;
-    background-color: blueviolet;
+.btn:hover {
+    box-shadow: 10px 5px 5px blueviolet;
 }
 
 .jumbotron {
