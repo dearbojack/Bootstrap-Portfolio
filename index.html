@@ -15,9 +15,9 @@
 
     <main>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light" aria-label="Fifth navbar example">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
             <div class="container-fluid">
-                <a class="navbar-brand h1" href="#">DALI</a>
+                <a class="navbar-brand h1" href="#">Dali Han</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,12 +29,15 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#works">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">Dropdown</a>
                             <ul class="dropdown-menu">
@@ -42,11 +45,11 @@
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
-                    <form role="search">
+                    <!-- <form role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </nav>
@@ -54,14 +57,14 @@
         <!-- hero with jumbotron -->
         <div class="p-5 mb-4 bg-light rounded-3">
             <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                <h1 class="display-5 fw-bold">Experience the Unknown</h1>
                 <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                <button class="btn btn-primary btn-lg" type="button">Know Me More</button>
+                <button class="btn btn-primary btn-lg" type="button">More about me</button>
             </div>
         </div>
 
         <!-- works grid -->
-        <div class="container">
+        <div id="works" class="container">
             <h2>Projects</h2>
             <div class="card-columns">
                 <div class="card">
@@ -95,7 +98,7 @@
         </div>
         
         <!-- skills section with list -->
-        <div class="container">
+        <div id="skills" class="container">
             <h2>Skills</h2>
             <ul>
                 <li>Skill 1</li>
@@ -105,7 +108,7 @@
         </div>
 
         <!-- contact me -->
-        <div class="container">
+        <div id="contact" class="container">
             <h2>About/Contact</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tortor eu metus euismod vestibulum. Mauris euismod, nunc at vehicula luctus, ligula erat porttitor nibh, sit amet placerat massa nunc vel quam. Nulla facilisi. Quisque velit ligula, imperdiet eu cursus at, posuere vel odio. Suspendisse facilisis turpis non turpis pulvinar, eu bibendum tellus iaculis. Suspendisse potenti. Maecenas ut velit vel velit tempor posuere non eget lectus. Donec aliquam, nulla a semper auctor, ipsum est facilisis metus, at auctor metus nulla euismod dui. In tristique, risus ut cursus laoreet, ligula urna sagittis leo, et tincidunt orci nulla a erat. Quisque id elementum mi.</p>
         </div>
@@ -114,7 +117,6 @@
         <footer class="pt-5 my-5 text-muted border-top">
             Created by Dali Han &middot; &copy; 2022
         </footer>
-
 
     </main>
 
