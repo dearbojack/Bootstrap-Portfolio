@@ -72,4 +72,4 @@ Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Submission
 - GitHub Repo: https://github.com/dearbojack/Bootstrap-Portfolio
-- Deployed Github Page: 
+- Deployed Github Page: https://dearbojack.github.io/Bootstrap-Portfolio/

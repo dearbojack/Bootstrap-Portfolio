@@ -12,7 +12,13 @@ a:hover {
 }
 
 .jumbotron {
-    margin-bottom: 0;
+    background-image: url("../images/hero.jpeg");
+    background-size: cover;
+}
+
+.jumbotron h1,p {
+    color: white;
+    text-align: justify;
 }
 .container {
     padding-top: 50px;
